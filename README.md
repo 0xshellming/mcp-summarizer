@@ -1,4 +1,5 @@
 # MCP Content Summarizer Server
+[![smithery badge](https://smithery.ai/badge/@0xshellming/mcp-summarizer)](https://smithery.ai/server/@0xshellming/mcp-summarizer)
 
 A Model Context Protocol (MCP) server that provides intelligent summarization capabilities for various types of content using Google's Gemini 1.5 Pro model. This server can help you generate concise summaries while maintaining key information from different content formats.
 
@@ -60,6 +61,14 @@ To integrate this server with a desktop app, add the following to your app's ser
     }
   }
 }
+```
+
+## Installing via Smithery
+
+To install Content Summarizer Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@0xshellming/mcp-summarizer):
+
+```bash
+npx -y @smithery/cli install @0xshellming/mcp-summarizer --client claude
 ```
 
 ## Available Tools
